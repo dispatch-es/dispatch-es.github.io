@@ -1,0 +1,26 @@
+button {
+  @include appearance(none);
+  -webkit-transition: all 0.25s;
+       -o-transition: all 0.25s;
+          transition: all 0.25s;
+  -webkit-font-smoothing: antialiased;
+  background-color: $black;
+  border: none;
+  color: $white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $sans-serif;
+  font-size: 0.75em;
+  line-height: 1;
+  padding: 0.75em 1em 0.75em;
+  text-decoration: none;
+  text-transform: uppercase;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  &:hover,
+  &:focus {
+    background-color: $blue;
+  }
+}

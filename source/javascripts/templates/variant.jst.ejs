@@ -1,0 +1,19 @@
+<div class="product__variants__variant">
+  <div class="product__variants__variant__meta">
+    <div class="product__variants__variant__meta__title">
+      <%= variantTitle %>
+    </div>
+
+    <div class="product__variants__variant__meta__price">
+      <%= variantPrice %>
+    </div>
+  </div>
+
+  <div class="product__variants__variant__form">
+    <form class="add-to-cart" action="<%= providerUrl %>/cart/add" method="POST">
+      <input type="hidden" name="id" value="<%= variantId %>">
+      <input type="hidden" name="return_to" value="back">
+      <button type="submit" class="btn btn-lg btn-success">ADD TO CART</button>
+    </form>
+  </div>
+</div>

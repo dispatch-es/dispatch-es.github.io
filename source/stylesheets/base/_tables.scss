@@ -1,0 +1,26 @@
+table {
+  @include font-feature-settings("kern", "liga", "tnum");
+  border-collapse: collapse;
+  border: 1px solid $base-border-color;
+  margin: $small-spacing 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+th {
+  border-bottom: 1px solid darken($base-border-color, 15%);
+  font-weight: 600;
+  padding: 1em;
+  text-align: left;
+}
+
+td {
+  border-bottom: $base-border;
+  padding: 1em;
+}
+
+tr,
+td,
+th {
+  vertical-align: middle;
+}

@@ -1,0 +1,30 @@
+---
+title: Projects
+---
+
+- data.catalog.collections.each do |collection|
+  .collection
+    .collection__images
+      - collection.images.each do |image|
+        %img{ src: image_large(image) }
+      .collection__images__lede
+        %h3
+          = collection.name
+        %h4
+          = collection.lede
+    %section
+      .collection__meta
+        .collection__meta__description
+          = markdown_to_html collection.description
+        .collection__meta__context-image
+          %img{ src: image_thumb(collection.context_images.first), data: {action: 'zoom'} }
+        .collection__meta__context-image
+          %img{ src: image_thumb(collection.context_images.last), data: {action: 'zoom'} }
+      .collection__meta
+        .collection__meta__fabrication
+          = markdown_to_html collection.fabrication
+        .collection__meta__sizing
+          = markdown_to_html collection.sizing
+      .collection__products
+        - collection.products.each do |product|
+          = partial('partials/product', locals: { product: product })

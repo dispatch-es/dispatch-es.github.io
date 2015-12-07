@@ -1,0 +1,12 @@
+header {
+  @include padding(1em 2em 1em 2em);
+  @include clearfix();
+
+  .name {
+    float: left;
+  }
+
+  .nav {
+    float: right;
+  }
+}

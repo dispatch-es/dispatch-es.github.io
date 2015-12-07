@@ -1,0 +1,54 @@
+.index {
+  header {
+    position: absolute;
+    a {
+      color: $white;
+    }
+
+    .nav a {
+      border-bottom: 1px solid transparent;
+
+      &:hover {
+        border-bottom: 1px solid $white;
+      }
+    }
+  }
+
+  .collection__images {
+    img {
+      width: 100%;
+    }
+    .collection__images__lede {
+      position: absolute;
+      text-align: center;
+      left: 0;
+      right: 0;
+      top: 25em;
+      color: $white;
+      h3 {
+        font-size: 2.5em;
+        line-height: 0.75em;
+      }
+      h4 {
+        font-size: 2em;
+        line-height: 0.75em;
+      }
+    }
+  }
+
+  section {
+    @include outer-container;
+    @include padding(1em 1em 0 1em);
+
+    .collection__meta {
+      .collection__meta__context-image {
+      }
+      .collection__meta__description {
+      }
+      .collection__meta__fabrication {
+      }
+      .collection__meta__sizing {
+      }
+    }
+  }
+}

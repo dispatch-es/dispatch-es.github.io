@@ -1,0 +1,9 @@
+.product{data: { handle: product.handle}}
+  .product__title
+    %span= product.name
+    = markdown_to_html product.description
+  .product__images
+    - product.images.each do |image|
+      .product__images__image
+        %img{src: image_square(image), data: {action: 'zoom'}}
+  .product__variants

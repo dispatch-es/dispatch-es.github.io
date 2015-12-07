@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+@import "bourbon";
+@import "base/base";
+@import "neat";
+
+@import "partials/nav";
+@import "partials/fade_in";
+@import "partials/zoom";
+@import "partials/pace";
+@import "partials/about";
+@import "partials/contact";
+@import "partials/index";
+
+@media (min-width: 420px) {
+
+}
+
+@media (min-width: 768px) {
+  @import "partials/about_small";
+  @import "partials/contact_small";
+  @import "partials/index_small";
+  @import "partials/nav_small";
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+  @import "partials/index_large";
+  @import "partials/nav_large";
+}

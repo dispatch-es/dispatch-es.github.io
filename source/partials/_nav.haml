@@ -1,0 +1,11 @@
+%header
+  .name
+    = link_to data.content.copy.headline, data.content.meta.canonical_url
+  .nav
+    = link_to 'Cart<em></em>', "#{ENV['PROVIDER_URL']}/cart", class: 'cart'
+    %span
+      \/
+    = link_to 'About', '/about', is_page_active('about')
+    %span
+      \/
+    = link_to 'Contact', '/contact', is_page_active('contact')

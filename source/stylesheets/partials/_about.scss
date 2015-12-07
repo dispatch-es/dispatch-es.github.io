@@ -1,0 +1,6 @@
+.about {
+  section {
+    @include outer-container;
+    @include padding(1em 1em 0 1em);
+  }
+}
