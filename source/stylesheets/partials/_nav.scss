@@ -5,6 +5,7 @@ html, body {
 
 header {
   @include padding(1em 1em 0 1em);
+  font-family: $sans-serif-medium;
   text-align: left;
   width: 100%;
 
@@ -23,8 +24,7 @@ header {
   }
 
   .name {
-    font-size: 1.5em;
-    line-height: 1.5em;
+    font-size: 2em;
 
     a {
       border-bottom: none;
@@ -33,12 +33,14 @@ header {
 
   .nav {
     color: $gray;
-    font-size: 1.15em;
-    line-height: 1.5em;
+    font-size: 1em;
     text-transform: uppercase;
 
     span {
       padding: 0 0.5em;
+    }
+    em {
+      font-style: normal;
     }
   }
 }

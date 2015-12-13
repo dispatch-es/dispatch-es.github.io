@@ -1,37 +1,33 @@
 collections:
 - name: The Tybee Jump Rope
-  lede: Use it everyday-forever.
+  lede: Use it everyday—forever (if you want to)
   description: |
-    The Tybee Jump Rope is a handsome and performant new take on a classic.
+    The <em>Tybee Jump Rope</em> is a handsome and performant new classic.
 
-    Cleverly assembled, the Tybee Jump Rope is assembled from turned wooden handles, leather cord, and paracord with a little water and heat to bind them all together.
+    It is cleverly assembled from the simple combination of turned wooden handles, leather cord, and paracord. As a last step, a little boiling water is used to bind them all together.
 
   fabrication: |
     Handle
 
-    * Walnut hardwood
+    * Walnut or maple hardwood
     * 5&#215;1.25&#8243;
-    * CNC machined (Michigan); laser engraved (Pennsylvania)
+    * CNC machined in Michigan; laser engraved in Pennsylvania
 
     Leather Cord
 
     * American leather
     * Variable lengths; 1/4 inch diameter
-    * Tanned, heat-treated and curried (New Hampshire)
+    * Tanned, heat-treated and curried in New Hampshire
 
     Paracord
 
     * 550 paracord nylon
     * Variable lengths; 5mm diameter
-    * Manufactured (Massachusetts)
+    * Manufactured in Massachusetts
 
-    Final assembly at GENMFGCO in Brooklyn
-
-    Note: Due to high demand, please allow 1 week for this product to ship after ordering.
+    Final assembly at Dispatches in Brooklyn.
 
   sizing: |
-    The table below matches leather lengths to optimal height ranges for jump rope enthusiasts. Your mileage may vary—some folks have very long arms relative to their heights.
-
     Leather length  | Corresponding Height
     --------------- | ---------------
     118 inches      | 5’1" – 5’4"
@@ -40,60 +36,64 @@ collections:
     136 inches      | 6’1 – 6’4"
     142 inches      | 6’5" – 6’8"
 
+    The table above matches leather lengths to optimal height ranges for jump rope enthusiasts. Your mileage may vary—some folks have very long arms relative to their heights.
+
   care: |
     Once a year or as needed, apply neatsfoot oil to the leather cord to prevent drying or cracking.
 
   images:
-  - projects/tybee-jump-rope/5.jpg
+  - images/tybee-jump-rope/context/2.jpg
+  studio_images:
+  - images/tybee-jump-rope/studio/1.jpg
   context_images:
-  - projects/tybee-jump-rope/6.jpg
-  - projects/tybee-jump-rope/4.jpg
+  - images/tybee-jump-rope/context/3.jpg
+  - images/tybee-jump-rope/context/1.jpg
   products:
-  - name: Blue
-    handle: tybee-jump-rope-blue
-    description: Assembled in New York from solid blue paracord, leather chord and turned maple wooden handles.
-    images:
-    - projects/tybee-jump-rope/1.jpg
-    - projects/tybee-jump-rope/7.jpg
-  - name: Black
-    handle: tybee-jump-rope-black
-    description: Assembled in New York from solid black paracord, leather chord and turned maple wooden handles.
-    images:
-    - projects/tybee-jump-rope/1.jpg
-    - projects/tybee-jump-rope/7.jpg
-  - name: Red
-    handle: tybee-jump-rope-red
-    description: Assembled in New York from solid red paracord, leather chord and turned maple wooden handles.
-    images:
-    - projects/tybee-jump-rope/1.jpg
-    - projects/tybee-jump-rope/7.jpg
-  - name: Yellow
-    handle: tybee-jump-rope-yellow
-    description: Assembled in New York from solid yellow paracord, leather chord and turned maple wooden handles.
-    images:
-    - projects/tybee-jump-rope/2.jpg
-    - projects/tybee-jump-rope/8.jpg
-  - name: Black White
-    handle: tybee-jump-rope-black-white
-    description: Assembled in New York from black and white paracord, leather chord and turned walnut wooden handles.
-    images:
-    - projects/tybee-jump-rope/1.jpg
-    - projects/tybee-jump-rope/7.jpg
   - name: Blue Yellow
     handle: tybee-jump-rope-blue-yellow
-    description: Assembled in New York from blue and yellow paracord, leather chord and turned walnut wooden handles.
+    description: Assembled in New York from blue and yellow paracord, leather cord and turned walnut wooden handles.
     images:
-    - projects/tybee-jump-rope/1.jpg
-    - projects/tybee-jump-rope/7.jpg
+    - images/tybee-jump-rope/studio/blue-yellow/1.jpg
+    - images/tybee-jump-rope/studio/blue-yellow/2.jpg
+  - name: Black White
+    handle: tybee-jump-rope-black-white
+    description: Assembled in New York from black and white paracord, leather cord and turned walnut wooden handles.
+    images:
+    - images/tybee-jump-rope/studio/black-white/1.jpg
+    - images/tybee-jump-rope/studio/black-white/2.jpg
   - name: Red White
     handle: tybee-jump-rope-red-white
-    description: Assembled in New York from solid red and white paracord, leather chord and turned walnut wooden handles.
+    description: Assembled in New York from solid red and white paracord, leather cord and turned walnut wooden handles.
     images:
-    - projects/tybee-jump-rope/1.jpg
-    - projects/tybee-jump-rope/7.jpg
+    - images/tybee-jump-rope/studio/red-white/1.jpg
+    - images/tybee-jump-rope/studio/red-white/2.jpg
   - name: Dark Stripes
     handle: tybee-jump-rope-dark-stripes
-    description: Assembled in New York from solid multi-color striped paracord, leather chord and turned walnut wooden handles.
+    description: Assembled in New York from solid multi-color striped paracord, leather cord and turned walnut wooden handles.
     images:
-    - projects/tybee-jump-rope/1.jpg
-    - projects/tybee-jump-rope/7.jpg
+    - images/tybee-jump-rope/studio/dark-stripes/1.jpg
+    - images/tybee-jump-rope/studio/dark-stripes/2.jpg
+  - name: Red
+    handle: tybee-jump-rope-red
+    description: Assembled in New York from solid red paracord, leather cord and turned maple wooden handles.
+    images:
+    - images/tybee-jump-rope/studio/red/1.jpg
+    - images/tybee-jump-rope/studio/red/2.jpg
+  - name: Yellow
+    handle: tybee-jump-rope-yellow
+    description: Assembled in New York from solid yellow paracord, leather cord and turned maple wooden handles.
+    images:
+    - images/tybee-jump-rope/studio/yellow/1.jpg
+    - images/tybee-jump-rope/studio/yellow/2.jpg
+  - name: Black
+    handle: tybee-jump-rope-black
+    description: Assembled in New York from solid black paracord, leather cord and turned maple wooden handles.
+    images:
+    - images/tybee-jump-rope/studio/black/1.jpg
+    - images/tybee-jump-rope/studio/black/2.jpg
+  - name: Blue
+    handle: tybee-jump-rope-blue
+    description: Assembled in New York from solid blue paracord, leather cord and turned maple wooden handles.
+    images:
+    - images/tybee-jump-rope/studio/blue/1.jpg
+    - images/tybee-jump-rope/studio/blue/2.jpg

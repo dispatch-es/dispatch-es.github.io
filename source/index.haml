@@ -22,9 +22,14 @@ title: Projects
           %img{ src: image_thumb(collection.context_images.last), data: {action: 'zoom'} }
       .collection__meta
         .collection__meta__fabrication
+          %h3 Fabrication
           = markdown_to_html collection.fabrication
         .collection__meta__sizing
+          %h3 Sizing
           = markdown_to_html collection.sizing
+      .studio__images
+        - collection.studio_images.each do |image|
+          %img{ src: image_large(image) }
       .collection__products
         - collection.products.each do |product|
           = partial('partials/product', locals: { product: product })

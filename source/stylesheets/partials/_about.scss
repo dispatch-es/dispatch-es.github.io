@@ -2,5 +2,14 @@
   section {
     @include outer-container;
     @include padding(1em 1em 0 1em);
+    h2 {
+      @include sans('l-headline');
+    }
+    h3 {
+      @include sans('xl-body');
+    }
+    p {
+      @include sans('xl-body');
+    }
   }
 }

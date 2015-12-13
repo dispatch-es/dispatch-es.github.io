@@ -1,15 +1,19 @@
 .index {
   header {
     position: absolute;
+    z-index: 10;
     a {
       color: $white;
     }
 
-    .nav a {
-      border-bottom: 1px solid transparent;
+    .nav {
+      color: $white;
+      a {
+        border-bottom: 1px solid transparent;
 
-      &:hover {
-        border-bottom: 1px solid $white;
+        &:hover {
+          border-bottom: 1px solid $white;
+        }
       }
     }
   }
@@ -19,19 +23,13 @@
       width: 100%;
     }
     .collection__images__lede {
-      position: absolute;
-      text-align: center;
-      left: 0;
-      right: 0;
-      top: 25em;
-      color: $white;
+      padding: 1em 1em 0;
       h3 {
-        font-size: 2.5em;
-        line-height: 0.75em;
+        @include sans('headline');
+        margin: 0;
       }
       h4 {
-        font-size: 2em;
-        line-height: 0.75em;
+        @include sans('s-headline');
       }
     }
   }
@@ -41,13 +39,84 @@
     @include padding(1em 1em 0 1em);
 
     .collection__meta {
+      @include row();
+      h3 {
+        font-family: $sans-serif-medium;
+        text-transform: uppercase;
+      }
       .collection__meta__context-image {
       }
       .collection__meta__description {
+        @include padding(0 0 1em 0);
+        p {
+          @include sans('l-body');
+        }
+        em {
+          font-family: $sans-serif-semibold;
+          font-style: normal;
+        }
       }
       .collection__meta__fabrication {
+        @include padding(2em 0 0 0);
+        p {
+          color: $dark-gray;
+          margin: 0;
+          padding: 0;
+        }
+
+        ul {
+          margin: 0 0 1em;
+          li {
+            color: $dark-gray;
+            padding: 0 0 0 1em;
+          }
+        }
       }
       .collection__meta__sizing {
+        @include padding(2em 0 0 0);
+        p {
+          font-family: $sans-serif-italic;
+        }
+      }
+    }
+
+    .studio__images {
+      @include padding(1em 0 1em 0);
+    }
+
+    .product {
+      @include row();
+      border-top: $base-border;
+      padding: 1em 0;
+      .product__title {
+        span {
+          font-family: $sans-serif-medium;
+          text-transform: uppercase;
+        }
+        font-family: $serif-regular;
+      }
+
+      .product__images {
+        img {
+          float: left;
+          width: 50%;
+        }
+      }
+
+      .product__variants {
+        @include span-columns(12);
+        .product__variants__variant {
+          @include row();
+          border-top: 1px solid $lightest-gray;
+          padding: 1em 0;
+          .product__variants__variant__meta {
+            @include span-columns(6);
+          }
+          .product__variants__variant__form {
+            @include span-columns(6);
+            text-align: right;
+          }
+        }
       }
     }
   }

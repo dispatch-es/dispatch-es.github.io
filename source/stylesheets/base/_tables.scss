@@ -8,15 +8,18 @@ table {
 }
 
 th {
-  border-bottom: 1px solid darken($base-border-color, 15%);
-  font-weight: 600;
-  padding: 1em;
+  border-bottom: $base-border;
+  border-left: $base-border;
+  font-family: $sans-serif-italic;
+  font-weight: normal;
+  padding: 0.5em;
   text-align: left;
 }
 
 td {
   border-bottom: $base-border;
-  padding: 1em;
+  border-left: $base-border;
+  padding: 0.5em 1em;
 }
 
 tr,
