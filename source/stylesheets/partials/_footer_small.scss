@@ -1,0 +1,35 @@
+footer {
+  .item {
+    @include padding(6em 2em 6em 2em);
+    @include row();
+  }
+  .summary {
+    h3, p {
+      max-width: 640px;
+      margin: 0 auto $small-spacing;
+    }
+    h3 {
+      text-align: center;
+    }
+  }
+  .links {
+    p { text-align: center; }
+    ul {
+      margin-bottom: 0;
+      text-align: center;
+    }
+    .link-col {
+      @include span-columns(3);
+    }
+  }
+  .name {
+    .item {
+      @include padding(0 2em 6em 2em);
+    }
+    text-align: center;
+    @include sans('headline');
+  }
+  .subscribe-form {
+    margin-bottom: 0;
+  }
+}

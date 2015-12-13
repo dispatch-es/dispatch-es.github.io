@@ -1,4 +1,4 @@
-.about {
+.shipping {
   section {
     @include outer-container;
     @include padding(3em 1em 3em 1em);
@@ -6,8 +6,7 @@
       @include sans('s-headline');
       margin-bottom: 2 * $small-spacing;
     }
-    a {
-      text-decoration: underline;
+    p, ul, li {
     }
     ul {
       margin-bottom: 2 * $small-spacing;
@@ -15,11 +14,6 @@
         list-style-type: disc;
         margin-left: 1.5 * $small-spacing;
       }
-    }
-    .more-info {
-      border-top: 1px solid $lightest-gray;
-      margin-top: 2em;
-      padding-top: 2em;
     }
   }
 }

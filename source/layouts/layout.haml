@@ -4,8 +4,8 @@
     %meta{charset: 'utf-8'}
     %meta{http_equiv: 'X-UA-Compatible', content: 'IE=edge;chrome=1'}
     %title= "Dispatches - #{current_page.data.title || 'Products'}"
-    %meta{name: 'description', content: ''}
-    %meta{name: 'author', content: ''}
+    %meta{name: 'description', content: 'Dispatches is a multi-disciplinary product design practice in New York City.'}
+    %meta{name: 'author', content: 'Dispatches'}
     %meta{name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
     :javascript
       window.paceOptions = {
@@ -24,6 +24,7 @@
     = partial 'partials/nav'
   #main{ role: 'main' }
     = yield
+    = partial 'partials/footer'
 
   :javascript
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

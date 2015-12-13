@@ -1,0 +1,32 @@
+%footer
+  - unless current_page.url == '/about/'
+    .summary
+      .item
+        %h3 Lets get old together.
+        %p Aiming to release one new product every three months, Dispatches sweats the details. We work closely with a handful of American manufacturers to make products that uniquely combine utility, handsomness, and durability.
+  .links
+    .item
+      .link-col
+        %p Subscribe
+        .subscribe-form
+          %form{ action: 'http://cairnco.createsend.com/t/r/s/dhhhydh/', method: :post }
+            %input{ type: 'email', required: true, name: 'cm-dhhhydh-dhhhydh' }
+            = submit_tag 'Go!'
+
+      .link-col
+        %p More details
+        %ul
+          %li= link_to 'About', '/about'
+          %li= link_to 'Shipping Policies', '/shipping'
+      .link-col
+        %p Reach out
+        %ul
+          %li= link_to 'support@dispatch.es', 'mailto:support@dispatch.es'
+      .link-col
+        %p Elsewhere
+        %ul
+          %li= link_to 'Twitter', 'https://twitter.com/dispatch_es'
+          %li= link_to 'Github', 'https://github.com/dispatch-es'
+  .name
+    .item
+      = link_to data.content.copy.headline, data.content.meta.canonical_url

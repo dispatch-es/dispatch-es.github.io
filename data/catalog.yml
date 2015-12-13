@@ -1,10 +1,10 @@
 collections:
 - name: The Tybee Jump Rope
-  lede: Use it everyday—forever (if you want to)
+  lede: A durable, beautiful jump rope. Use it everyday—forever.
   description: |
-    The <em>Tybee Jump Rope</em> is a handsome and performant new classic.
+    The <em>Tybee Jump Rope</em> is assembled by hand out of a combination of turned wooden handles, leather cord, and 550 paracord.
 
-    It is cleverly assembled from the simple combination of turned wooden handles, leather cord, and paracord. As a last step, a little boiling water is used to bind them all together.
+    As a last step, a little boiling water is used to tighten the paracord and bind the elements together.
 
   fabrication: |
     Handle
@@ -51,49 +51,73 @@ collections:
   products:
   - name: Blue Yellow
     handle: tybee-jump-rope-blue-yellow
-    description: Assembled in New York from blue and yellow paracord, leather cord and turned walnut wooden handles.
+    description: |
+      * American leather
+      * Blue/yellow 550 paracord
+      * Turned & engraved walnut hardwood handles
     images:
     - images/tybee-jump-rope/studio/blue-yellow/1.jpg
     - images/tybee-jump-rope/studio/blue-yellow/2.jpg
   - name: Black White
     handle: tybee-jump-rope-black-white
-    description: Assembled in New York from black and white paracord, leather cord and turned walnut wooden handles.
+    description: |
+      * American leather
+      * Black/white 550 paracord
+      * Turned & engraved walnut hardwood handles
     images:
     - images/tybee-jump-rope/studio/black-white/1.jpg
     - images/tybee-jump-rope/studio/black-white/2.jpg
   - name: Red White
     handle: tybee-jump-rope-red-white
-    description: Assembled in New York from solid red and white paracord, leather cord and turned walnut wooden handles.
+    description: |
+      * American leather
+      * Red/white 550 paracord
+      * Turned & engraved walnut hardwood handles
     images:
     - images/tybee-jump-rope/studio/red-white/1.jpg
     - images/tybee-jump-rope/studio/red-white/2.jpg
   - name: Dark Stripes
     handle: tybee-jump-rope-dark-stripes
-    description: Assembled in New York from solid multi-color striped paracord, leather cord and turned walnut wooden handles.
+    description: |
+      * American leather
+      * Multi-color striped 550 paracord
+      * Turned & engraved walnut hardwood handles
     images:
     - images/tybee-jump-rope/studio/dark-stripes/1.jpg
     - images/tybee-jump-rope/studio/dark-stripes/2.jpg
   - name: Red
     handle: tybee-jump-rope-red
-    description: Assembled in New York from solid red paracord, leather cord and turned maple wooden handles.
+    description: |
+      * American leather
+      * Red 550 paracord
+      * Turned & engraved maple hardwood handles
     images:
     - images/tybee-jump-rope/studio/red/1.jpg
     - images/tybee-jump-rope/studio/red/2.jpg
   - name: Yellow
     handle: tybee-jump-rope-yellow
-    description: Assembled in New York from solid yellow paracord, leather cord and turned maple wooden handles.
+    description: |
+      * American leather
+      * Yellow 550 paracord
+      * Turned & engraved maple hardwood handles
     images:
     - images/tybee-jump-rope/studio/yellow/1.jpg
     - images/tybee-jump-rope/studio/yellow/2.jpg
   - name: Black
     handle: tybee-jump-rope-black
-    description: Assembled in New York from solid black paracord, leather cord and turned maple wooden handles.
+    description: |
+      * American leather
+      * Black 550 paracord
+      * Turned & engraved maple hardwood handles
     images:
     - images/tybee-jump-rope/studio/black/1.jpg
     - images/tybee-jump-rope/studio/black/2.jpg
   - name: Blue
     handle: tybee-jump-rope-blue
-    description: Assembled in New York from solid blue paracord, leather cord and turned maple wooden handles.
+    description: |
+      * American leather
+      * Blue 550 paracord
+      * Turned & engraved maple hardwood handles
     images:
     - images/tybee-jump-rope/studio/blue/1.jpg
     - images/tybee-jump-rope/studio/blue/2.jpg

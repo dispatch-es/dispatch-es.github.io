@@ -52,7 +52,7 @@
           @include sans('l-body');
         }
         em {
-          font-family: $sans-serif-semibold;
+          font-family: $sans-serif-medium;
           font-style: normal;
         }
       }
@@ -93,7 +93,14 @@
           font-family: $sans-serif-medium;
           text-transform: uppercase;
         }
-        font-family: $serif-regular;
+        ul {
+          margin: 5px 0 1em 0;
+          li {
+            @include serif('s-body');
+            list-style-type: disc;
+            margin-left: 1em;
+          }
+        }
       }
 
       .product__images {
@@ -111,6 +118,9 @@
           padding: 1em 0;
           .product__variants__variant__meta {
             @include span-columns(6);
+            .product__variants__variant__meta__title {
+              font-family: $sans-serif-medium;
+            }
           }
           .product__variants__variant__form {
             @include span-columns(6);

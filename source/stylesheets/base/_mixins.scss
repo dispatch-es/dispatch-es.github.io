@@ -1,18 +1,37 @@
 @mixin sans($size) {
   @if $size == 'xxl-headline' {
     @include headline();
-    font-size: 3 * $base-font-size;
   } @else if $size == 'xl-headline' {
     @include headline();
-    font-size: 2 * $base-font-size;
   } @else if $size == 'l-headline' {
     @include headline();
-    font-size: 1.75 * $base-font-size;
   } @else if $size == 'headline' {
     @include headline();
-    font-size: 1.5 * $base-font-size;
   } @else if $size == 's-headline' {
     @include headline();
+  }
+  @include font-size($size);
+}
+
+@mixin serif($size) {
+  @include font-size($size);
+  font-family: $serif-regular;
+}
+
+@mixin headline() {
+  font-family: $sans-serif-medium;
+}
+
+@mixin font-size($size) {
+  @if $size == 'xxl-headline' {
+    font-size: 3 * $base-font-size;
+  } @else if $size == 'xl-headline' {
+    font-size: 2 * $base-font-size;
+  } @else if $size == 'l-headline' {
+    font-size: 1.75 * $base-font-size;
+  } @else if $size == 'headline' {
+    font-size: 1.5 * $base-font-size;
+  } @else if $size == 's-headline' {
     font-size: 1.25 * $base-font-size;
   } @else if $size == 'xxl-body' {
     font-size: 1.75 * $base-font-size;
@@ -27,8 +46,4 @@
   } @else {
     font-size: $size;
   }
-}
-
-@mixin headline() {
-  font-family: $sans-serif-semibold;
 }
