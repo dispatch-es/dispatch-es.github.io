@@ -1,0 +1,1 @@
+(function(){$(function(){var t,r;return r=function(){return Dispatches.performRequest(Dispatches.providerUrl+"/cart.json",t)},t=function(t){var r;return r=t.item_count,r>0?$(".cart em").html(" ("+t.item_count+")"):void 0},$(".cart").length>0?r():void 0})}).call(this);
