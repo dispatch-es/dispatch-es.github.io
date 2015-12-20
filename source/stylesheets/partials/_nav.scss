@@ -4,7 +4,7 @@ html, body {
 }
 
 header {
-  @include padding(1em 1em 0 1em);
+  @include padding(1em 2em 0 2em);
   font-family: $sans-serif-medium;
   text-align: left;
   width: 100%;

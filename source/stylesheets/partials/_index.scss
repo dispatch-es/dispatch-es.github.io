@@ -1,132 +1,28 @@
 .index {
-  header {
-    position: absolute;
-    z-index: 10;
-    a {
-      color: $white;
-    }
+  .collections {
+    @include row();
+    padding: 1em 2em 0.5em;
 
-    .nav {
-      color: $white;
-      a {
-        border-bottom: 1px solid transparent;
-
-        &:hover {
-          border-bottom: 1px solid $white;
-        }
+    .collections__item {
+      padding: 0 0 0.5em;
+      position: relative;
+      .collections__item__label {
+        position: absolute;
+        padding: 0;
+        position: absolute;
+        text-align: center;
+        left: 0;
+        right: 0;
+        bottom: 5em;
+        color: $white;
       }
-    }
-  }
-
-  .collection__images {
-    img {
-      width: 100%;
-    }
-    .collection__images__lede {
-      padding: 1em 1em 0;
+      img {
+        width: 100%;
+      }
       h3 {
-        @include sans('headline');
+        @include sans('l-headline');
         margin: 0;
-      }
-      h4 {
-        @include sans('s-headline');
-      }
-    }
-  }
-
-  section {
-    @include outer-container;
-    @include padding(1em 1em 0 1em);
-
-    .collection__meta {
-      @include row();
-      h3 {
-        font-family: $sans-serif-medium;
-        text-transform: uppercase;
-      }
-      .collection__meta__context-image {
-      }
-      .collection__meta__description {
-        @include padding(0 0 1em 0);
-        p {
-          @include sans('l-body');
-        }
-        em {
-          font-family: $sans-serif-medium;
-          font-style: normal;
-        }
-      }
-      .collection__meta__fabrication {
-        @include padding(2em 0 0 0);
-        p {
-          color: $dark-gray;
-          margin: 0;
-          padding: 0;
-        }
-
-        ul {
-          margin: 0 0 1em;
-          li {
-            color: $dark-gray;
-            padding: 0 0 0 1em;
-          }
-        }
-      }
-      .collection__meta__sizing {
-        @include padding(2em 0 0 0);
-        p {
-          font-family: $sans-serif-italic;
-        }
-      }
-    }
-
-    .studio__images {
-      @include padding(1em 0 1em 0);
-    }
-
-    .product {
-      @include row();
-      border-top: $base-border;
-      padding: 1em 0;
-      .product__title {
-        span {
-          font-family: $sans-serif-medium;
-          text-transform: uppercase;
-        }
-        ul {
-          margin: 5px 0 1em 0;
-          li {
-            @include serif('s-body');
-            list-style-type: disc;
-            margin-left: 1em;
-          }
-        }
-      }
-
-      .product__images {
-        img {
-          float: left;
-          width: 50%;
-        }
-      }
-
-      .product__variants {
-        @include span-columns(12);
-        .product__variants__variant {
-          @include row();
-          border-top: 1px solid $lightest-gray;
-          padding: 1em 0;
-          .product__variants__variant__meta {
-            @include span-columns(6);
-            .product__variants__variant__meta__title {
-              font-family: $sans-serif-medium;
-            }
-          }
-          .product__variants__variant__form {
-            @include span-columns(6);
-            text-align: right;
-          }
-        }
+        padding: 0;
       }
     }
   }

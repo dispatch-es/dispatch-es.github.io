@@ -1,0 +1,32 @@
+.products {
+  .collection__images {
+    .collection__images__lede {
+      bottom: 10em;
+      h3 {
+        @include sans('xxl-headline');
+        margin-bottom: 0.5 * $small-spacing;
+      }
+      h4 {
+        @include sans('xl-headline');
+      }
+    }
+  }
+
+  section {
+    .collection__meta {
+      .collection__meta__context-image {
+        @include span-columns(3);
+      }
+      .collection__meta__description {
+        @include span-columns(6);
+        p {
+          @include sans('xxl-body');
+        }
+      }
+      .collection__meta__fabrication {
+      }
+      .collection__meta__sizing {
+      }
+    }
+  }
+}

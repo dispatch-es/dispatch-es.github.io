@@ -1,6 +1,10 @@
 Time.zone = "EST"
 activate :dotenv
 
+data.catalog.collections.each do |collection|
+  proxy "/products/#{collection.handle}.html", "/products/product.html", locals: { collection_handle: collection.handle }, ignore: true
+end
+
 helpers do
   def markdown_to_html(text)
     Kramdown::Document.new(text).to_html
@@ -8,6 +12,10 @@ helpers do
 
   def image_large(path)
     imgix_client.path(path).width(1200).to_url
+  end
+
+  def large_thumb(path)
+    imgix_client.path(path).width(1200).height(720).fit('crop').to_url
   end
 
   def image_square(path)

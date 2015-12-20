@@ -47,3 +47,19 @@
     font-size: $size;
   }
 }
+
+@mixin gradient-background($start-color, $end-color, $fallback-color, $direction: '') {
+  @if $direction == 'left-to-right' {
+    background: $fallback-color;
+    background: -webkit-linear-gradient(left, $start-color , $end-color);
+    background: -o-linear-gradient(right, $start-color, $end-color);
+    background: -moz-linear-gradient(right, $start-color, $end-color);
+    background: linear-gradient(to right, $start-color, $end-color);
+  } @else {
+    background: $fallback-color;
+    background: -webkit-linear-gradient($start-color , $end-color);
+    background: -o-linear-gradient($start-color, $end-color);
+    background: -moz-linear-gradient($start-color, $end-color);
+    background: linear-gradient($start-color, $end-color);
+  }
+}

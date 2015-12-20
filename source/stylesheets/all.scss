@@ -4,6 +4,7 @@
 @import "base/base";
 @import "neat";
 
+@import "partials/borders";
 @import "partials/nav";
 @import "partials/fade_in";
 @import "partials/zoom";
@@ -11,6 +12,7 @@
 @import "partials/about";
 @import "partials/shipping";
 @import "partials/index";
+@import "partials/products";
 @import "partials/footer";
 
 @media (min-width: 420px) {
@@ -21,6 +23,7 @@
   @import "partials/about_small";
   @import "partials/shipping_small";
   @import "partials/index_small";
+  @import "partials/products_small";
   @import "partials/nav_small";
   @import "partials/footer_small";
 }
@@ -31,6 +34,7 @@
 @media (min-width: 1200px) {
   @import "partials/about_large";
   @import "partials/index_large";
+  @import "partials/products_large";
   @import "partials/nav_large";
   @import "partials/shipping_large";
 }

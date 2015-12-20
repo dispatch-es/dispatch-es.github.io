@@ -1,0 +1,36 @@
+---
+title: Projects
+---
+- collection = data.send(collection_handle.gsub('-', '_').to_sym)
+.deets
+  .collection
+    .collection__images
+      - collection.images.each do |image|
+        %img{ src: image_large(image) }
+      .collection__images__lede
+        %h3
+          = collection.name
+        %h4
+          = collection.lede
+    %section
+      .collection__meta
+        .collection__meta__description
+          = markdown_to_html collection.description
+        .collection__meta__context-image
+          %img{ src: image_thumb(collection.context_images.first), data: {action: 'zoom'} }
+        .collection__meta__context-image
+          %img{ src: image_thumb(collection.context_images.last), data: {action: 'zoom'} }
+      .collection__meta
+        .collection__meta__fabrication
+          %h3 Fabrication
+          = markdown_to_html collection.fabrication
+        .collection__meta__sizing
+          %h3 Sizing
+          = markdown_to_html collection.sizing
+      - if collection.studio_images
+        .studio__images
+          - collection.studio_images.each do |image|
+            %img{ src: image_large(image) }
+      .collection__products
+        - collection.products.each do |product|
+          = partial('partials/product', locals: { product: product })

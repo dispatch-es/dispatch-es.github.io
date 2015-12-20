@@ -1,0 +1,69 @@
+name: Bozeman Coat Rack
+lede: Sturdy, efficient and geometric, a coat rack for small spaces.
+description: |
+  The Bozeman Coat Rack has 5 steel hooks staggered across a compact footprint.
+
+  It is constructed simply from a single continuous stainless steel wireform and a machined walnut mount.
+
+  Each hook is dipped in rubber by hand to provide color and extra grip.
+fabrication: |
+  Base
+
+  * 9″ × 1″ × 3/4" American walnut
+  * Made in Michigan
+
+  Hooks
+
+  * 1/4" D stainless steel wire
+  * Made in Missouri
+
+  Rubber dipped by hand at Dispatches in Brooklyn.
+
+sizing: |
+  Approximately 9″ × 1″ × 3/4"
+
+care: |
+  Wipe with a damp cloth, if needed
+
+images:
+- images/bozeman-coat-rack/context/0.jpg
+context_images:
+- images/bozeman-coat-rack/context/2.jpg
+- images/bozeman-coat-rack/context/4.jpg
+products:
+- name: Black
+  handle: bozeman-coat-rack-black
+  description: |
+    * American walnut base
+    * Stainless steel wire
+    * Hand-dipped rubber
+  images:
+  - images/bozeman-coat-rack/studio/black/1.jpg
+  - images/bozeman-coat-rack/studio/black/2.jpg
+- name: Blue
+  handle: bozeman-coat-rack-blue
+  description: |
+    * American walnut base
+    * Stainless steel wire
+    * Hand-dipped rubber
+  images:
+  - images/bozeman-coat-rack/studio/blue/1.jpg
+  - images/bozeman-coat-rack/studio/blue/2.jpg
+- name: Yellow
+  handle: bozeman-coat-rack-yellow
+  description: |
+    * American walnut base
+    * Stainless steel wire
+    * Hand-dipped rubber
+  images:
+  - images/bozeman-coat-rack/studio/yellow/1.jpg
+  - images/bozeman-coat-rack/studio/yellow/2.jpg
+- name: Red
+  handle: bozeman-coat-rack-red
+  description: |
+    * American walnut base
+    * Stainless steel wire
+    * Hand-dipped rubber
+  images:
+  - images/bozeman-coat-rack/studio/red/1.jpg
+  - images/bozeman-coat-rack/studio/red/2.jpg

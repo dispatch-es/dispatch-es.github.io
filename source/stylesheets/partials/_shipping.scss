@@ -1,7 +1,7 @@
 .shipping {
   section {
     @include outer-container;
-    @include padding(3em 1em 3em 1em);
+    @include padding(3em 2em 3em 2em);
     h2 {
       @include sans('s-headline');
       margin-bottom: 2 * $small-spacing;

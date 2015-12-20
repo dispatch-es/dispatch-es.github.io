@@ -1,0 +1,42 @@
+$border-width: 10px;
+
+.border-bottom,
+.border-left,
+.border-right,
+.border-top {
+  position: fixed;
+}
+
+.border-top,
+.border-bottom {
+  height: $border-width;
+  left: 0;
+  right: 0;
+}
+
+.border-top {
+  top: 0;
+  @include gradient-background($red, $yellow, $blue, 'left-to-right');
+}
+
+.border-bottom {
+  bottom: 0;
+  @include gradient-background($green, $blue, $blue, 'left-to-right');
+}
+
+.border-left,
+.border-right {
+  width: $border-width;
+  top: 0;
+  bottom: 0;
+}
+
+.border-left {
+  left: 0;
+  @include gradient-background($red, $green, $blue);
+}
+
+.border-right {
+  right: 0;
+  @include gradient-background($yellow, $blue, $blue);
+}
