@@ -5,6 +5,8 @@ data.catalog.collections.each do |collection|
   proxy "/products/#{collection.handle}.html", "/products/product.html", locals: { collection_handle: collection.handle }, ignore: true
 end
 
+page '/404.html', directory_index: false
+
 helpers do
   def markdown_to_html(text)
     Kramdown::Document.new(text).to_html
