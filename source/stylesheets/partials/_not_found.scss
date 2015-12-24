@@ -1,0 +1,16 @@
+.x404 {
+  section {
+    @include outer-container;
+    @include padding(3em 2em 3em 2em);
+    h2 {
+      @include sans('xl-body');
+      margin-bottom: 2 * $small-spacing;
+    }
+    p {
+      @include sans('l-body');
+    }
+    a {
+      text-decoration: underline;
+    }
+  }
+}

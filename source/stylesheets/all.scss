@@ -14,6 +14,7 @@
 @import "partials/index";
 @import "partials/products";
 @import "partials/footer";
+@import "partials/not_found";
 
 @media (min-width: 420px) {
 
@@ -26,6 +27,7 @@
   @import "partials/products_small";
   @import "partials/nav_small";
   @import "partials/footer_small";
+  @import "partials/not_found_small";
 }
 
 @media (min-width: 992px) {
